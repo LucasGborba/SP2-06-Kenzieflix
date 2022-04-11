@@ -1,0 +1,80 @@
+body{  
+    background-color: black;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logotipo{
+    width: 229px;
+    height: 68px;
+}
+h2{
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: white;
+}
+ul{
+    display: flex;
+    justify-content:center;
+    align-content: center;
+    gap: 40px;
+}
+li{
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: white;
+    text-align: center;
+    list-style: none;
+    
+}
+li:hover{
+    color: white;
+}
+
+.avatar{
+    width: 160px;
+    height: 160px; 
+    overflow: hidden;
+    margin-bottom: 30px;
+    box-sizing:border-box;
+}
+.avatar:hover{
+    border: 3px solid white;
+}
+.avatar img{
+    transition: .5s;
+}
+.avatar img:hover{
+
+    transform: scale(1.2);
+
+}
+
+.user{
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: white;
+    position: absolute;
+    margin-top: 170px;
+}
+.botao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+}
+.botao button{
+    background-color: black;
+    color: white;
+    width: 206px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 10px;
+    }
+    
+    button:hover{
+    background-color:white ;
+    color: black;
+}
+
+
